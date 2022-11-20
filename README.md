@@ -1,4 +1,4 @@
-# Sound_Editing_with_Fourier_Transform
+# Sound Editing with Fourier Transform
 
 This is a fourier transform based sound editing code.
 
