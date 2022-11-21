@@ -36,9 +36,6 @@ FT = np.fft.fft(data) # calculating the fourier transform for the 'data' array
 plot_data(data) # ploting the data to see the starting recording
 plt.show() # showing the starting recording plot
 
-plot_data(FT) # ploting the fourier transform array
-plt.show() # showing the fourier transform array plot
-
 # here we can change the value of the elements in the array FT (fourier transform)
 
 # to change the values of different elements in the array FT you can use the function 'minus' for example if
@@ -50,6 +47,9 @@ plt.show() # showing the fourier transform array plot
 ''' end changing the FT '''
 
 # the end where we can change the value of the elements in the array FT (fourier transform)
+
+plot_data(FT) # ploting the fourier transform array
+plt.show() # showing the fourier transform array plot
 
 transform = np.fft.ifft(FT) # geting the new recording from the fourier transform using the inverse fourier transform
 
